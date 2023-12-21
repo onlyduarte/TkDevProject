@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/registrar.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaReg.css">
+    <title>Tela de registrar</title>
+</head>
+<body>
+    <div class="container">
+        <div class="conect"> 
+            <form method="post" class="entrar" id="registro-form">
+                <h1>Registrar</h1>
+                <!-- <input type="login" id="login" placeholder="Usuário" required> -->
+                <input type="email" id="email" placeholder="Email" name="email" required>
+                <input type="password" id="password" placeholder="Password" name="password" required>
+                <input type="password" id="spassword" placeholder="Password" name="secPassword" required>
+                <input class="logar" type="submit" name="acao" value="Cadastrar">
+            </form>
+            <!-- <button type="submit" class="logar">Cadastrar</button> -->
+            <a href="index.html" class="register">
+                <p>Já possui cadastro?</p>
+            </a>
+        </div>
+    </div>
+    <script type="module" src="conect.js"></script>
+    <script  src="js/formRegistro.js"></script>
+    
+    
+</body>
+</html>

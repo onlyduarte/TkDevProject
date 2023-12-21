@@ -1,0 +1,135 @@
+@media (max-width: 1600px){
+    .container{
+        width: 35%;
+    }
+    .lembrar .active-button p{
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+@media (max-width: 1300px){
+    .lembrar .active-button p{
+        width: 80%;
+    }
+    .container{
+        width: 40%;
+    }
+    .logar{
+        font-size: 18px;
+        width: 30%;
+    }
+}
+@media (max-width: 900px){
+    .lembrar .active-button p{
+        width: 80%;
+    }
+    body{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .container{
+        width: 60%;
+    }
+}
+@media (max-width: 750px){
+    .entrar input{
+        width: 85%;
+    }
+    .lembrar .active-button p{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .container{
+        width: 70%;
+    }
+}
+@media (max-width: 700px){
+    .lembrar .active-button p{
+        background: none;
+        position: relative;
+        right: 0px;
+        width: 80%;
+        font-size: 12px;
+        font-weight: 700;
+        
+    }
+    .entrar input{
+        width: 85%;
+    }
+}
+@media (max-width: 600px){
+    .lembrar .active-button p{
+        position: relative;
+        left: 5px;
+        width: 80%;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    body{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .lembrar{
+        gap: 5px;
+    }
+    .lembrar .active-button p{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .lembrar-sempre{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2px;
+    }
+    .container{
+        position: absolute;
+        width: 90%;
+        opacity: 95%;
+    }
+    .conect{
+        /* background: url("../images/projeto3.png"); */
+        /* opacity: 90%; */
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .conect h1{
+        box-sizing: 10%;
+        width: 50%;
+        font-weight: bold;
+    }
+    .aodImg img{
+        display: none;
+        width: 100%;   
+    }
+    @media (max-width: 425px){
+        .container{
+            position: absolute;
+            width: 90%;
+        }
+        .logar{
+            width: 40%;
+            font-size: 17px;
+        }
+        .entrar{
+            width: 80%;
+        }
+        .conect h1 {
+            font-size: 26px;
+        }
+        .logar{
+            width: 30%;
+        }
+        .register{
+            font-size: 15px;
+        }
+        .recuperar{
+            font-size: 15px;
+        }
+    }
+}

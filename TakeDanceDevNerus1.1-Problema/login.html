@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/mediaLogin.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="conect">
+            <form class="entrar">
+                <h1>Entrar</h1>
+                    <input type="login" id="login" placeholder="Login" name="login" required>
+                    <label class="mostrarPass">
+                        <input type="password" id="password" placeholder="Password" name="password" required>
+                        <div>
+                            <label for="mostrarSenha" id="olho"><img  id="imgOlho" src="images/olho.png" alt="">
+                            <input type="checkbox" id="mostrarSenha">
+                            </label>
+                        </div>
+                    </label>
+                    <input type="submit" value="LOGIN" class="logar"></input>
+                </form>
+                <div class="lembrar">
+                    <div class="active-button">
+                        <div class="lembrar-sempre">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                            <p>Lembrar sempre</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="registrar.html" class="register">
+                    <p>Registrar-se</p>
+                </a>
+                <p class="recuperar">Recuperar senha</p>
+        </div>
+       <!-- <div class="aodImg"><img src="images/nerusr1.png" alt=""></div>-->
+    </div>
+    <script src="js/eyescript.js"></script>
+    <script src="js/conect.js"></script>
+    <script src="js/formRegistro.js"></script>
+    <script src=""></script>
+</body>
+</html>

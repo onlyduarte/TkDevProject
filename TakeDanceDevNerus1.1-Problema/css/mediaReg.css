@@ -1,0 +1,81 @@
+@media (max-width: 1600px){
+    .container{
+        width: 35%;
+    }
+}
+@media (max-width: 1200px){
+    .container{
+        width: 50%;
+    }
+}
+@media (max-width: 900px){
+    .aodImg img{
+        display: none;
+        width: 40%;   
+    }
+    .container{
+        position: absolute;
+        width: 60%;
+    }
+    .conect{
+        /* background: url("../images/projeto3.png"); */
+        
+        /* opacity: 90%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media (max-width: 750px){
+    .lembrar p{
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+@media (max-width: 700px){
+    .lembrar{
+        gap: 5px;
+    }
+    .lembrar p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .container{
+        position: absolute;
+        width: 70%;
+    }
+    .conect{
+        /* background: url("../images/projeto3.png"); */
+        /* opacity: 90%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%; 
+    }
+    .conect h1{
+        box-sizing: 10%;
+        width: 50%;
+        font-weight: bold;
+    }
+    .aodImg img{
+        display: none;
+        width: 100%;
+    }
+    @media (max-width: 425px){
+        .container{
+            position: absolute;
+            width: 90%;
+        }
+        .logar{
+            width: 40%;
+            font-size: 17px;
+        }
+        .entrar{
+            width: 80%;
+        }
+        .conect h1 {
+            font-size: 20px;
+        }
+    }
+}

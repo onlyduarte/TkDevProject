@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   height: 100vh;
+   background:linear-gradient(-190deg, #1a5432, rgb(4, 12, 5));
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   outline: none;
+   font-family: 'Inter', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+    height: 578.55px;
+    border-radius: 20px;
+    background:#ebebeb;
+    /* box-shadow: 0px 0px 50px #7400F4; */
+}
+.conect{
+    width: 80%;
+    height: 578px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.entrar{
+    gap: 15px;
+    display: flex;
+    width: 65%;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.entrar input{
+    width: 100%;
+    height: 68.68px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #d3d3d373;;
+    border: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.entrar h1{
+    color: rgba(0, 0, 0, 0.904);
+}
+.entrar input:hover{
+    background: #b2e6ba;
+    color: #911f1f;
+}
+.lembrar{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.lembrar p{
+    font-size: 17px;
+}
+.lembrar a{
+    text-decoration: none;
+}
+.active-button{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.active-button p{
+    background: #000000;
+    font-size: 20px;
+    color: #7400F4;
+
+}
+.register{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+.logar{
+    width: 40%;
+    height: 68.68px;
+    border-radius: 6px;
+    background:linear-gradient(190deg, #1a5432, rgb(4, 12, 5));
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+}
+.logar:hover{
+    background: rgba(0, 0, 0, 0.904);
+}
+.register p{
+    color: rgba(0, 0, 0, 0.904);
+}
+

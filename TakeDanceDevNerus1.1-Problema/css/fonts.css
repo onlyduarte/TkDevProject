@@ -1,0 +1,43 @@
+@font-face {
+    font-family:quicksandregular;
+    src: url('../container/fonts/Quicksand-Regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:quicksandbold;
+    src: url('../container/fonts/Quicksand-Bold.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:quicksandlight;
+    src: url('../container/fonts/Quicksand-Light.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'robotor';
+    src: url('../container/fonts/RobotoSlab-Regular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'robotob';
+    src: url('../container/fonts/RobotoSlab-Bold.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'robotov';
+    src: url('../container/fonts/RobotoSlab-VariableFont_wght.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
